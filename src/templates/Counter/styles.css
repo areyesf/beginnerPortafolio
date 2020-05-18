@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(120, 199, 179);
+}
+.container{
+    width: 50%;
+}
+.counter{
+    
+.btn{
+    border: none;
+    margin: 0 3rem;
+    color: rgb(56, 56, 110);
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+    transition: font-size ease 0.1s;
+}
+.btn:hover{
+    font-size: 4rem;
+}
+.counter p{
+    font-size: 4rem;
+    font-weight: bold;
+    color:white;
+}
+
+@media(max-width:550px){
+    .container{
+        width: 100%;
+    }
+    .btn{
+        margin: 0 1rem;
+    }
+}
